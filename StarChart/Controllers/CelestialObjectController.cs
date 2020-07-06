@@ -18,9 +18,6 @@ namespace StarChart.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
+        
     }
 }
