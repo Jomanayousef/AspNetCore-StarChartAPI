@@ -32,7 +32,7 @@ namespace StarChart.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-
+            return Ok("CelestialObjects");
         }
     }
 }
